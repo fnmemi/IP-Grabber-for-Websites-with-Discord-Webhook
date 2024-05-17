@@ -11,7 +11,7 @@ This script fetches the user's IP address using `https://api.ipify.org` and send
 
 ## How it Works
 
-The script uses JavaScript's `fetch` API to send a GET request to `https://api.ipify.org` to obtain the user's IP address. It then sends a POST request to a Discord webhook URL with the obtained IP address as the payload.
+The script leverages JavaScript's versatile `fetch` API to seamlessly dispatch a GET request to `https://api.ipify.org`, retrieving the user's precise IP address. Subsequently, it orchestrates a POST request to a designated Discord webhook URL, furnishing the acquired IP address as the payload. Expect to receive real-time notifications in your Discord server whenever a visitor graces your website, each notification succinctly encapsulating the visitor's Public IP address.
 
 ## Usage
 
