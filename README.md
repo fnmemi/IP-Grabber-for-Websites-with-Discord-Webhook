@@ -31,7 +31,7 @@ Implementing in HTML
 ```
 or the .js file:
 
-```
+```js
 fetch('https://api.ipify.org')
   .then(response => response.text())
   .then(ip => {
