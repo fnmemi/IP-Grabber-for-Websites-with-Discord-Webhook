@@ -9,12 +9,6 @@
   <strong>A simple script to grab the user's IP address and send it to a Discord webhook.</strong>
 </p>
 
-## Table of Contents
-
-- [Description](#description)
-- [How it Works](#how-it-works)
-- [Usage](#usage)
-- [License](#license)
 
 ## Description
 
