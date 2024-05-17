@@ -1,4 +1,4 @@
-<h1 align="center">IP Grabber</h1>
+<h1 align="center">JavaScript IP Grabber with Discord Webhook</h1>
 
 <p align="center">
   <strong>A simple script to grab the user's IP address and send it to a Discord webhook.</strong>
