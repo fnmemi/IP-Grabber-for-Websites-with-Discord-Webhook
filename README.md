@@ -31,7 +31,7 @@ Just make sure to replace **`YOUR_DISCORD_WEBHOOK`** with your actual Discord we
     });
 </script>
 ```
-###Separate JavaScript File:
+### Separate JavaScript File:
 
 ```js
 fetch('https://api.ipify.org')
