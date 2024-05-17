@@ -1,10 +1,6 @@
 <h1 align="center">IP Grabber</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square&logo=github" alt="Status">
-</p>
-
-<p align="center">
   <strong>A simple script to grab the user's IP address and send it to a Discord webhook.</strong>
 </p>
 
