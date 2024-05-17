@@ -2,7 +2,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square&logo=github" alt="Status">
-  <img src="https://img.shields.io/github/license/your_username/your_repo?style=flat-square" alt="License">
 </p>
 
 <p align="center">
