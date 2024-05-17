@@ -15,7 +15,7 @@ The script leverages JavaScript's `fetch` API to dispatch a GET request to `http
 
 ## Usage
 
-Simply include the script in your HTML file. Just make sure to replace `**YOUR_DISCORD_WEBHOOK**` with your actual Discord webhook URL.
+Simply include the script in your HTML file. Just make sure to replace **`YOUR_DISCORD_WEBHOOK`** with your actual Discord webhook URL.
 
 ```html
 <script>
