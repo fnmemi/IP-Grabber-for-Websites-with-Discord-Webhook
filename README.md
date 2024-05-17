@@ -47,4 +47,4 @@ fetch('https://api.ipify.org')
 
 ## Disclaimer
 
-This script is intended for educational purposes only. Any use of this script to collect or share users' IP addresses without their consent may violate privacy laws and ethical principles. Ensure compliance with all relevant regulations and obtain proper authorization before deploying such functionality. Use at your own risk.
+**This script is provided for educational purposes only. Any use of this script to collect or share users' IP addresses without their consent may violate privacy laws and ethical principles. Ensure compliance with all relevant regulations and obtain proper authorization before deploying such functionality. Use at your own risk.**
